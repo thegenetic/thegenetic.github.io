@@ -245,8 +245,10 @@ header{
         grid-column-gap:1em;
         grid-template-areas: 
             "img title"
-            "img subtitle";
+            "img subtitle"
+            "img text";
         grid-template-columns: min-content max-content;
+        
     }
     .intro__img{
         grid-area: img;
@@ -356,8 +358,8 @@ header{
 .portfolio{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
-    grid-template-rows: repeat(auto-fit,minmax(300px,1fr));
-    
+    grid-template-rows: repeat(auto-fit, minmax(230px,1fr));
+    gap: 2em;
 }
 .portfolio__item{
     overflow:visible;
