@@ -1,0 +1,42 @@
+baseURL = 'https://thegenetic.github.io/'
+languageCode = 'en-us'
+title = 'My Portfolio'
+theme = "loveit"
+
+# Menu configuration
+[menu]
+    [[menu.main]]       # Adds to main navigation
+        name = "Posts"  # Menu item text
+        url = "/posts/" # Target URL
+        weight = 10    # Sorting order (lower = earlier)
+    [[menu.main]]       # Adds to main navigation
+        name = "About Me"  # Menu item text
+        url = "/aboutme/" # Target URL
+        weight = 10    # Sorting order (lower = earlier)
+    [[menu.main]]  # Top-level dropdown menu item
+        identifier = "machines"
+        name = "Machines"
+        url = "/machines/"         # Empty string so it doesn't link anywhere directly
+        weight = 10
+
+    [[menu.main]]  # First dropdown item under Machines
+        parent = "machines"
+        name = "HTB"
+        url = "/machines/htb/"
+        weight = 1
+
+    [[menu.main]]  # Second dropdown item under Machines
+        parent = "machines"
+        name = "THM"
+        url = "/machines/thm/"
+        weight = 2
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allows raw HTML
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
