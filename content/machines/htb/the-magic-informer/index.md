@@ -17,7 +17,7 @@ The Magic Informer is a HackTheBox challenge featuring a Node.js application wit
 | Type | Challenge |
 | Difficulty | <span class="diff-Easy">Easy</span> |
 | Creator | [Rayhan0x01](https://app.hackthebox.com/users/60115) & [makelaris](https://app.hackthebox.com/users/107)|
-| Release Date | 15 Jun 2023 |
+| Release Date | 17 December 2022 |
 
 ---
 
