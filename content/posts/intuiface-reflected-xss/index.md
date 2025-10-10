@@ -1,6 +1,6 @@
 +++
 date = '2025-10-07T00:08:48+05:30'
-draft = true
+draft = false
 title = 'Hidden in Plain Sight: Chaining CSS Override to XSS & Email Bombing'
 tags= ["xss", "css", "dom-security", "web-security", "reflected-xss"]
 +++
