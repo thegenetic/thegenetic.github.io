@@ -214,7 +214,7 @@ This led me to grab the session token of authenticated users by sending them the
 
 Security isn’t magic — it’s just **not trusting strangers**. Validate inputs, sanitize outputs, and sleep like a baby while hackers rage outside your fortified code. 🔒
 
-Connect with me on [LinkedIn](https://linkedin.com/in/the-genetic) and also on [Twitter](https://x.com/DipeshPaul19)
+Connect with me on [LinkedIn](https://linkedin.com/in/the-genetic) and also on [X](https://x.com/DipeshPaul19)
 
 **Stay paranoid, stay safe. 🚀**
 
